@@ -1,8 +1,10 @@
-debathena-metrics (1.7) UNRELEASED; urgency=low
+debathena-metrics (1.7) unstable; urgency=low
 
   * Bump debian/compat to 6
+  * Add support for lightdm's session startup and teardown directories
+    (Trac: #1276)
 
- -- Jonathan Reed <jdreed@mit.edu>  Sun, 01 Jul 2012 12:21:41 -0400
+ -- Jonathan Reed <jdreed@mit.edu>  Mon, 05 Aug 2013 16:04:11 -0400
 
 debathena-metrics (1.6) unstable; urgency=low
 
