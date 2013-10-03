@@ -1,3 +1,9 @@
+debathena-metrics (1.9) unstable; urgency=low
+
+  * Only run the install-pkg command if it exists (Trac: #544)
+
+ -- Jonathan Reed <jdreed@mit.edu>  Thu, 03 Oct 2013 14:04:20 -0400
+
 debathena-metrics (1.8) unstable; urgency=low
 
   * Add git-buildpackage configuration

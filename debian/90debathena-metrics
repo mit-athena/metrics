@@ -1,1 +1,1 @@
-DPkg::Pre-Install-Pkgs {"/usr/lib/debathena-metrics/install-pkg || :";};
+DPkg::Pre-Install-Pkgs {"test -x /usr/lib/debathena-metrics/install-pkg && /usr/lib/debathena-metrics/install-pkg || :";};
