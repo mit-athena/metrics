@@ -3,8 +3,9 @@ Section: debathena/misc
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
 Build-Depends: cdbs (>= 0.4.43), debhelper (>= 5.0.37.2),
- python-all-dev (>= 2.3.5-11), python-support (>= 0.5.3),
+ python-all-dev (>= 2.6.6-3~), python2.7-dev,
  python-pyrex, python-setuptools
+X-Python-Version: 2.7
 Standards-Version: 3.8.3
 
 Package: debathena-metrics

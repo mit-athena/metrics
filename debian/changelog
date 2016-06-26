@@ -1,3 +1,9 @@
+debathena-metrics (1.10) unstable; urgency=medium
+
+  * Replace python-support with dh_python2.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Sat, 25 Jun 2016 22:43:08 -0400
+
 debathena-metrics (1.9) unstable; urgency=low
 
   * Only run the install-pkg command if it exists (Trac: #544)
