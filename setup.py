@@ -28,6 +28,7 @@ setup(
     license="MIT",
     requires=['Pyrex'],
     packages=find_packages(),
+    namespace_packages=['debathena'],
     ext_modules=[
         Extension("debathena.metrics.connector",
                   ["debathena/metrics/connector.pyx"])

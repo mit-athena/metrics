@@ -1,3 +1,9 @@
+debathena-metrics (1.11) unstable; urgency=medium
+
+  * Properly declare debathena as a namespace package.  (Trac: #1417)
+
+ -- Anders Kaseorg <andersk@mit.edu>  Wed, 31 Aug 2016 03:41:09 -0400
+
 debathena-metrics (1.10) unstable; urgency=medium
 
   * Replace python-support with dh_python2.
